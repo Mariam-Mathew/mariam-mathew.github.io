@@ -5,7 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-
+    
+    <!-- Redirect /lander to root -->
+    <script>
+        if (window.location.pathname === '/lander' || window.location.pathname === '/lander/') {
+            window.location.href = '/';
+        }
+    </script>
     <title>Portfolio</title>
 
     <link rel="stylesheet" href="css/bootstrap.min.css">

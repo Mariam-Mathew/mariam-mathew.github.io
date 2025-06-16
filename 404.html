@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Redirecting...</title>
+    <script>
+        // Check if the current path is /lander or /lander/
+        if (window.location.pathname === '/lander' || window.location.pathname === '/lander/') {
+            // Redirect to the root
+            window.location.href = '/';
+        } else {
+            // For any other 404, redirect to home
+            window.location.href = '/';
+        }
+    </script>
+</head>
+<body>
+    <p>Redirecting to the home page...</p>
+</body>
+</html>
